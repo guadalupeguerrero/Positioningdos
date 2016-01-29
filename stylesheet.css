@@ -1,42 +1,41 @@
 
 
 div{
-	width: 200px;
-	height: 200px;
+	width: 40px;
+	height: 40px;
 }
 
 
-.rojo{
-	background-color: red;
+.black{
+	background-color: black;
 	position: static;
+	top: 0;
+	left: 0;
+}
+
+
+.azul{
+	background-color: blue;
+	position: absolute;
 	left: 0;
 	top: 0;
 
 }
 
-.azul{
-	background-color: blue;
+.green{
+	background-color: green;
 	position: absolute;
-	bottom: 200px;
-	top: 50px;
-	left: 48px;
+	top: 40px;
+	left: 40px;
+}
+
+.grande{
+	width: 200px;
+	height: 200px;
 }
 
 .mediano{
 	width: 120px;
 	height: 120px;
-}
-
-.amarillo{
-	background-color: yellow;
-	position: absolute;
-	top: 0;
-	left: 0;
-
-}
-
-.pequeno{
-	width: 50px;
-	height: 50px;
 }
 
